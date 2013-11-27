@@ -1,0 +1,13 @@
+{
+    "name": "tse-scrap",
+    "version": "1.0.0",
+    "description": "tool for scraping the tse actas 2013",
+    "author": "gtothesquare",
+    "dependencies": {
+        "request" : "~2.27.0",
+        "cheerio" : "~0.12.4"
+    },
+    "devDependencies": {
+
+    }
+}
