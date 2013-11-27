@@ -20,7 +20,7 @@ Run `$node -v` and `$npm -v` to confirm that you have everything needed.
 
 `$ npm install`
 
-This setups all the scripts dependencies
+This setups all the node app dependencies.
 
 ##Use
 
@@ -28,7 +28,9 @@ This setups all the scripts dependencies
 `$ START_ACTA=16000 END_ACTA=16100 POLL=1 node server.js`
 
 START_ACTA is which acta to start with. Default is 1.
+
 END_ACTA is which acta we will end with. MAX Default is 16135.
+
 POLL in seconds time before each poll/request. Default is 2. Don't get greedy and make this to small.
 
 ###Deamon
